@@ -1,6 +1,6 @@
 async function fetchHotels() {
   try {
-    const response = await fetch("http://localhost:3000/hotels");
+    const response = await fetch("http://localhost:3000/jugadores");
     const hotels = await response.json();
 
     const tableBody = document
