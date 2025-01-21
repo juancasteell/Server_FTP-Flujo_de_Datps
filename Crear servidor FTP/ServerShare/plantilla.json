@@ -1,0 +1,24 @@
+{
+  "jugadores": [
+    {
+      "jugador": {
+        "name": "John Doe",
+        "position": "Forward",
+        "rating": 85,
+        "number": 10,
+        "price": 1000000,
+        "nacionality": "USA"
+      }
+    },
+    {
+      "jugador": {
+        "name": "Jane Smith",
+        "position": "Midfielder",
+        "rating": 90,
+        "number": 8,
+        "price": 1200000,
+        "nacionality": "Canada"
+      }
+    }
+  ]
+}
