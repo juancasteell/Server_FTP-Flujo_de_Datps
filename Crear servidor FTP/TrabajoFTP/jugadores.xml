@@ -1,0 +1,19 @@
+
+<jugadores>
+  <jugador>
+    <name>John Doe</name>
+    <position>Forward</position>
+    <rating>85</rating>
+    <number>10</number>
+    <price>1000000</price>
+    <nacionality>USA</nacionality>
+  </jugador>
+  <jugador>
+    <name>Jane Smith</name>
+    <position>Midfielder</position>
+    <rating>90</rating>
+    <number>8</number>
+    <price>1200000</price>
+    <nacionality>Canada</nacionality>
+  </jugador>
+</jugadores>
