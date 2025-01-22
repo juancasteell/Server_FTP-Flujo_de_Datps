@@ -9,22 +9,77 @@
 </head>
 
 <body>
-    <h1>VIva el beti</h1>
-    <table id="jugadoresTable">
-        <thead>
-            <tr>
-                <th>Nombre del jugador</th>
-                <th>Posicion</th>
-                <th>Media</th>
-                <th>Dorsal</th>
-                <th>Precio de mercado</th>
-                <th>Nacionalidad</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Rows will be populated dynamically -->
-        </tbody>
-    </table>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#nuestra-casa">Nuestra casa</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <div id="contenedor">
+
+
+
+
+        <div id="titulo">
+            <img src="./imgs/logo-removebg-preview.png" alt="foto">
+            <h1>El mejor equipo del mundo</h1>
+            <img src="./imgs/logo-removebg-preview.png" alt="foto">
+        </div>
+
+        <div id="cuadros">
+            <div class="informacion">
+                <h2>¿Que es el betis?</h2>
+                <br>
+                <p>Entidad polideportiva con sede en la ciudad de Sevilla, en España. Se fundó el 12 de septiembre de
+                    1907 como Sevilla Balompié para la práctica del fútbol, aunque sus orígenes datan de 1907 y así
+                    consta como fecha fundacional por el propio club, oficialmente se registró el 1 de febrero de
+                    1908.Disputa sus encuentros como local en el Estadio Benito Villamarín, con capacidad para 60 721
+                    espectadores.</p>
+                <br>
+                <p>Es uno de los únicos nueve clubes españoles que han conquistado Liga y Copa (Copa del Rey), y también
+                    es el club que más veces ha subido y bajado a la Segunda División de España. En 1935 se convirtió en
+                    el cuarto club de la historia en conquistar la Primera División de España, una década en la que se
+                    popularizó su conocido lema "Viva el Betis manquepierda". </p>
+            </div>
+            <div class="informacion">
+                <h2>Sus virtudes</h2>
+                <br>
+                <p>El Real Betis Balompié es un gran equipo por múltiples razones, entre las que destacan:</p>
+                <br>
+                <p>Historia y Tradición: Fundado en 1907, el Betis es uno de los clubes históricos del fútbol español.
+                    Hasabido mantener una conexión especial con su afición a lo largo de los años, y su famoso lema
+                    "Viva
+                    elBetis manque pierda"</p>
+                <br>
+                <p>Afición Inigualable: El Benito Villamarín es un estadio conocido por su ambiente electrizante.</p>
+                <br>
+                <p>Logros y Espíritu Competitivo: A pesar de competir contra gigantes del fútbol, el Betis ha
+                    conseguido
+                    importantes logros, como la Copa del Rey en varias ocasiones.</p>
+
+
+            </div>
+        </div>
+
+        <h2>Plantilla</h2>
+        <table id="jugadoresTable">
+            <thead>
+                <tr>
+                    <th class="cabecera">Nombre del jugador</th>
+                    <th class="cabecera">Posicion</th>
+                    <th class="cabecera">Edad</th>
+                    <th class="cabecera">Dorsal</th>
+                    <th class="cabecera">Precio de mercado</th>
+                    <th class="cabecera">Nacionalidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be populated dynamically -->
+            </tbody>
+        </table>
+    </div>
+
 
     <script src="jugadores.js"></script>
 </body>

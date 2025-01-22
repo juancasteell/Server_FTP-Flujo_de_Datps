@@ -13,7 +13,7 @@ async function fetchPlayers() {
       row.innerHTML = `
                 <td>${jugador.name[0]}</td>
                 <td>${jugador.position[0]}</td>
-                <td>${jugador.rating[0]}</td>
+                <td>${jugador.age[0]}</td>
                 <td>${jugador.number[0]}</td>
                 <td>${jugador.price[0]}</td>
                 <td>${jugador.nacionality[0]}</td>
