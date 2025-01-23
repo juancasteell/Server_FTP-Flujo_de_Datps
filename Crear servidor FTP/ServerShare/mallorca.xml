@@ -1,0 +1,223 @@
+<jugadores>
+<!-- Porteros ______________________________________________________ -->
+  <jugador>
+    <name>Adrián San Miguel Del Castillo</name>
+    <position>Portero</position>
+    <age>38</age>
+    <number>13</number>
+    <price>500 mil €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+
+<jugador>
+    <name>Francisco Barbosa Vieites</name>
+    <position>Portero</position>
+    <age>25</age>
+    <number>25</number>
+    <price>800 mil €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- Porteros______________________________________________________________ -->
+    <!-- Defensas______________________________________________________________ -->
+  <jugador>
+    <name>Héctor Bellerín Moruno</name>
+    <position>Defensa</position>
+    <age>29</age>
+    <number>2</number>
+    <price>3 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+
+  <jugador>
+    <name>Diego Javier Llorente Ríos</name>
+    <position>Defensa</position>
+    <age>31</age>
+    <number>3</number>
+    <price>6 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+
+<jugador>
+    <name>Marc Bartra Aregall</name>
+    <position>Defensa</position>
+    <age>34</age>
+    <number>5</number>
+    <price>1 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+
+<jugador>
+    <name>Natan Bernardo De Souza</name>
+    <position>Defensa</position>
+    <age>23</age>
+    <number>6</number>
+    <price>9 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+
+<jugador>
+    <name>Ricardo Iván Rodríguez Araya</name>
+    <position>Defensa</position>
+    <age>32</age>
+    <number>12</number>
+    <price>2.5 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+
+<jugador>
+    <name>Romain Perraud</name>
+    <position>Defensa</position>
+    <age>27</age>
+    <number>15</number>
+    <price>5 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+
+<jugador>
+    <name>Youssouf Sabaly</name>
+    <position>Defensa</position>
+    <age>31</age>
+    <number>23</number>
+    <price>2 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+
+<jugador>
+    <name>Nobel Mendy</name>
+    <position>Defensa</position>
+    <age>20</age>
+    <number>32</number>
+    <price>1 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- Defensas______________________________________________________________ -->
+  <!-- Centrocampistas______________________________________________________________ -->
+  <jugador>
+    <name>Johnny Cardoso</name>
+    <position>Centrocampista</position>
+    <age>23</age>
+    <number>4</number>
+    <price>20 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>William Carvalho</name>
+    <position>Centrocampista</position>
+    <age>32</age>
+    <number>14</number>
+    <price>2 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Sergi Altimira Clavell</name>
+    <position>Centrocampista</position>
+    <age>23</age>
+    <number>16</number>
+    <price>7.5 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Pablo Fornals Malla</name>
+    <position>Centrocampista</position>
+    <age>28</age>
+    <number>18</number>
+    <price>9 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Iker Losada Aragunde</name>
+    <position>Centrocampista</position>
+    <age>23</age>
+    <number>19</number>
+    <price>1.8 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Giovani Lo Celso</name>
+    <position>Centrocampista</position>
+    <age>28</age>
+    <number>20</number>
+    <price>20 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Marc Roca Junque</name>
+    <position>Centrocampista</position>
+    <age>28</age>
+    <number>21</number>
+    <price>8 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Don Francisco Román Alarcón Suárez "Isco"</name>
+    <position>Centrocampista</position>
+    <age>Que mas da sigue derrochando magia</age>
+    <number>22</number>
+    <price>∞</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- Centrocampistas______________________________________________________________ -->
+  <!-- Delanteros______________________________________________________________ -->
+  <jugador>
+    <name>Juan Miguel "Juanmi" Jiménez López</name>
+    <position>Delantero</position>
+    <age>31</age>
+    <number>13</number>
+    <price>4 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Vitor Hugo Roque Ferreira "Tigrinho"</name>
+    <position>Delantero</position>
+    <age>19</age>
+    <number>13</number>
+    <price>20 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Ezequiel "Chimy" Ávila</name>
+    <position>Delantero</position>
+    <age>30</age>
+    <number>13</number>
+    <price>2.8 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Abdessamad Ezzalzouli "Ez Abde"</name>
+    <position>Delantero</position>
+    <age>23</age>
+    <number>13</number>
+    <price>15 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Cédric Bakambu</name>
+    <position>Delantero</position>
+    <age>33</age>
+    <number>13</number>
+    <price>1.8 mill €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <jugador>
+    <name>Aitor Ruibal García</name>
+    <position>Delantero</position>
+    <age>28</age>
+    <number>13</number>
+    <price>3.5 mil €</price>
+    <nacionality>España</nacionality>
+  </jugador>
+  <!-- ______________________________________________________________ -->
+  <!-- Delanteros______________________________________________________________ -->
+</jugadores>
