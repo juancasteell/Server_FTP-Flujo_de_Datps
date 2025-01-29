@@ -9,7 +9,8 @@ app.use(cors());
 app.use(express.json());
 
 const FTP_CONFIG = {
-  host: "172.20.176.1",
+  // host: "172.20.176.1",
+  host: "192.168.4.250",
   user: "user1",
   password: "zubat",
   secure: true,
@@ -29,6 +30,7 @@ app.get("/jugadores", async (req, res) => {
 
     // Read and parse the XML file
     const xmlData = fs.readFileSync(XML_FILE_PATH, "utf8");
+
     xml2js.parseString(xmlData, (err, result) => {
       if (err) {
         console.error("Error parsing XML:", err);
