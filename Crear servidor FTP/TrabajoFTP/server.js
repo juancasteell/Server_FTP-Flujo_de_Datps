@@ -9,8 +9,8 @@ app.use(cors());
 app.use(express.json());
 
 const FTP_CONFIG = {
-  // host: "172.20.176.1",
-  host: "192.168.4.250",
+  host: "172.25.112.1",
+  // host: "192.168.4.250",
   user: "user1",
   password: "zubat",
   secure: true,
@@ -40,7 +40,7 @@ app.get("/jugadores", async (req, res) => {
       // Send parsed data to the frontend
       res.json(result.jugadores.jugador);
 
-      console.log("Parseado", jugadores); // Assumes JSON has a structure <jugadores><jugador>...</hotel></hotels>
+      console.log("Parseado", jugadores); // Assumes JSON has a structure <jugadores><jugador>...</jugador></jugadores>
     });
   } catch (err) {
     console.error("Error accessing FTP server:", err);
