@@ -1,6 +1,9 @@
 async function fetchPlayers() {
   try {
-    const response = await fetch("http://localhost:3000/jugadores");
+    // Y si hacemos dos responses o fusionamos el server?
+    let response = await fetch("http://localhost:3000/jugadores");
+    let response2 = await fetch("http://localhost:3001/jugadores");
+
     const jugadores = await response.json();
 
     const tableBody = document
@@ -11,12 +14,12 @@ async function fetchPlayers() {
       const row = document.createElement("tr");
 
       row.innerHTML = `
-                <td>${jugador.name[0]}</td>
-                <td>${jugador.position[0]}</td>
-                <td>${jugador.age[0]}</td>
-                <td>${jugador.number[0]}</td>
-                <td>${jugador.price[0]}</td>
-                <td>${jugador.nacionality[0]}</td>
+                <td>${jugador.name}</td>
+                <td>${jugador.position}</td>
+                <td>${jugador.age}</td>
+                <td>${jugador.number}</td>
+                <td>${jugador.price}</td>
+                <td>${jugador.nacionality}</td>
             `;
 
       tableBody.appendChild(row);
