@@ -1,29 +1,54 @@
 async function fetchPlayers() {
   try {
     let response = await fetch("http://localhost:3000/jugadores");
+    let data = await response.json();
 
-    const jugadores = await response.json();
+    const page = document.body.dataset.page;
 
     const tableBody = document
       .getElementById("jugadoresTable")
       .querySelector("tbody");
 
-    jugadores.forEach((jugador) => {
-      const row = document.createElement("tr");
+    // Limpiar tabla antes de insertar nuevos datos
+    tableBody.innerHTML = "";
 
-      console.log(jugador);
+    // Acceder a las listas
+    const { jsonJugadores, xmlJugadores } = data;
 
-      row.innerHTML = `
-                <td>${jugador.name}</td>
-                <td>${jugador.position}</td>
-                <td>${jugador.age}</td>
-                <td>${jugador.number}</td>
-                <td>${jugador.price}</td>
-                <td>${jugador.nacionality}</td>
-            `;
+    console.log("JSON Jugadores:", jsonJugadores);
+    console.log("XML Jugadores:", xmlJugadores);
 
-      tableBody.appendChild(row);
-    });
+    if (page === "mallorca") {
+      // Procesar jugadores del JSON
+      jsonJugadores.forEach((jugador) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${jugador.name}</td>
+          <td>${jugador.position}</td>
+          <td>${jugador.age}</td>
+          <td>${jugador.number}</td>
+          <td>${jugador.price}</td>
+          <td>${jugador.nacionality}</td>
+      `;
+        tableBody.appendChild(row);
+      });
+    }
+
+    if (page === "betis") {
+      // Procesar jugadores del XML (pueden estar en diferente formato)
+      xmlJugadores.forEach((jugador) => {
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td>${jugador.name}</td>
+          <td>${jugador.position}</td>
+          <td>${jugador.age}</td>
+          <td>${jugador.number}</td>
+          <td>${jugador.price}</td>
+          <td>${jugador.nacionality}</td>
+      `;
+        tableBody.appendChild(row);
+      });
+    }
   } catch (error) {
     console.error("Error fetching player data:", error);
   }
