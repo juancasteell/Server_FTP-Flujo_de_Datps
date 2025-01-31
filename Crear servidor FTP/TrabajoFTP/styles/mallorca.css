@@ -108,7 +108,7 @@ nav ul li a:hover {
 #checkboxInput:checked + .toggleSwitch .mute-speaker {
   opacity: 1;
   transition-duration: 0.3s;
-  background-color: red;
+  background-color: rgba(148, 142, 142, 0.7);
 }
 
 #checkboxInput:active + .toggleSwitch {

@@ -20,6 +20,25 @@ const FTP_CONFIG = {
 const XML_FILE_PATH = "jugadores.xml";
 const JSON_FILE_PATH = "mallorca.json";
 
+// Ruta para obtener sonidos desde el JSON
+app.get("/sounds", async (req, res) => {
+  const client = new ftp.Client();
+  try {
+    await client.access(FTP_CONFIG);
+    await client.downloadTo("sounds.json", "sounds.json");
+
+    const jsonData = fs.readFileSync("sounds.json", "utf8");
+    const sounds = JSON.parse(jsonData).sounds;
+
+    res.json(sounds);
+  } catch (err) {
+    console.error("Error accediendo al FTP:", err);
+    res.status(500).send("Error al obtener los sonidos.");
+  } finally {
+    client.close();
+  }
+});
+
 // Ruta para obtener datos de jugadores desde el XML
 app.get("/jugadores-xml", async (req, res) => {
   const client = new ftp.Client();
