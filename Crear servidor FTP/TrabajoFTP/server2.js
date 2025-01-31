@@ -30,7 +30,7 @@ app.get("/jugadores", async (req, res) => {
     const jsonData = fs.readFileSync(JSON_FILE_PATH, "utf8");
     const jugadores = JSON.parse(jsonData);
 
-    // Enviar los datos al frontend
+    // Enviar datos
     res.json(jugadores.jugadores); // Accede a la clave "jugadores" del JSON
   } catch (err) {
     console.error("Error accediendo al servidor FTP:", err);
