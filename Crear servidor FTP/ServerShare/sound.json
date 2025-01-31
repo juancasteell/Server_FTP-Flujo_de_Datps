@@ -1,0 +1,12 @@
+{
+  "sounds": [
+    {
+      "name": "betis",
+      "link": "himnoBetis.mp3"
+    },
+    {
+      "name": "mallorca",
+      "link": "himnoMallorca.mp3"
+    }
+  ]
+}
