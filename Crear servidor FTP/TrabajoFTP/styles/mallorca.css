@@ -94,3 +94,12 @@ nav ul li a:hover {
   background-color: #800000;
   color: white;
 }
+
+.footer {
+  border-radius: 5px;
+  margin: 20px 10px 10px;
+  background-color: #f1f1f1;
+  color: black;
+  text-align: center;
+  justify-content: center;
+}

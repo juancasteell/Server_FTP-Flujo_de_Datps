@@ -10,13 +10,15 @@ async function fetchPlayers() {
     jugadores.forEach((jugador) => {
       const row = document.createElement("tr");
 
+      console.log(jugador);
+
       row.innerHTML = `
-                <td>${jugador.name[0]}</td>
-                <td>${jugador.position[0]}</td>
-                <td>${jugador.age[0]}</td>
-                <td>${jugador.number[0]}</td>
-                <td>${jugador.price[0]}</td>
-                <td>${jugador.nacionality[0]}</td>
+                <td>${jugador.name}</td>
+                <td>${jugador.position}</td>
+                <td>${jugador.age}</td>
+                <td>${jugador.number}</td>
+                <td>${jugador.price}</td>
+                <td>${jugador.nacionality}</td>
             `;
 
       tableBody.appendChild(row);
