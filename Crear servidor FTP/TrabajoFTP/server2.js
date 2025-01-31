@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 const FTP_CONFIG = {
-  host: "172.25.112.1",
+  host: "192.168.0.37",
   user: "user1",
   password: "zubat",
   secure: true,
@@ -40,7 +40,7 @@ app.get("/jugadores", async (req, res) => {
   }
 });
 
-const PORT = 3000;
+const PORT = 3001;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });

@@ -1,6 +1,9 @@
 async function fetchPlayers() {
   try {
-    const response = await fetch("http://localhost:3000/jugadores");
+    // Y si hacemos dos responses o fusionamos el server?
+    let response = await fetch("http://localhost:3000/jugadores");
+    let response2 = await fetch("http://localhost:3001/jugadores");
+
     const jugadores = await response.json();
 
     const tableBody = document
